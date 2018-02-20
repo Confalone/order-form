@@ -7,15 +7,22 @@ Product.all = [];
 function Product(name) {
   this.name= name;
   this.path = 'imgdir/' + name + '.jpg';
-  this.votes = 0;
-  this.views = 0;
+  this.qty = 0;
   Product.all.push(this);
 }
 for(var i = 0; i < Product.names.length; i++) {
   new Product(Product.names[i]);
 }
 
-function addCart (event) {
-
+function drop () {
+  var merch = document.getElementById('Product');
+  var optionEl = document.createElement('option');
+  optionEl.appendChild(document.createTextNode(Product.names));
+  merch.appendChild(optionEl);
 }
+drop();
+
+// function addCart (event) {
+
+// }
 
