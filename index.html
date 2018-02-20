@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+        <title>order-form</title>
+    </head>
+    <body>
+        <h1>Bus Mall Order Form</h1>
+        <section>
+        <form addCart="">
+            <select name = "Product">
+                <option value="bag">bag</option>
+                <option value="chair">chair</option>
+            </select>
+            <input type="text" id="qty" placeholder="qty">
+            <button id ="addCart"> Add to Cart </button>
+        </form>
+        </section>   
+        <div>
+            <h1>Items in Cart</h1>
+            <ul id = "items"></ul>
+        </div>
+        <script type="text/javascript" src="apps.js"></script>
+    </body>
+</html>
