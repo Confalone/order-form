@@ -4,16 +4,20 @@
     <head>
         <meta charset="utf-8" />
         <link rel="stylesheet" type="text/css" href="style.css"/>
-        <title>cart</title>
+        <title>Cart</title>
     </head>
     <body>
         <h1>Bus Mall Cart</h1>
         <h2>Cart</h2>
         <div id = "cart">
-            <ul id ="itemDel"></ul>
+            <ul id ="itemDel">
+                <li>Test 1: 3 total <button class="delete">Remove</button></li>
+                <li>Test 2: 4 total <button class="delete">Remove</button></li>
+                <li>Test 3: 100 total <button class="delete">Remove</button></li>
+            </ul>
         </div>
-        <h2>Shipping Address</h2>
-        <section>
+        <section id="shipping">
+            <h2>Shipping Address</h2>
             <input type="text" placeholder="Name">
             <input type="text" placeholder="Street Address">
             <input type="text" placeholder="City">
@@ -21,13 +25,16 @@
             <input type="text" placeholder="Zip Code">
             <input type="text" placeholder="Phone Number">
         </section>
-        <h3>Payment Information</h3>
-        <section>
+        <section id="payment">
+            <h3>Payment Information</h3>
             <input type="text" placeholder="16 digit Card Number">
             <input type="text" placeholder="CV Code">
             <input type="text" placeholder="Expiration date">
         </section>
         <button id="order">Process Order</button>
+        <footer>
+            <p>&copy Bus Mall Corporation, 2018.</p>
+        </footer>
         <script type="text/javascript" src="apps.js"></script>
     </body>
 </html>
