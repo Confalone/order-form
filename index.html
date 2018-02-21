@@ -9,57 +9,64 @@
     <body>
         <h1>Bus Mall Order Form</h1>
         <section>
-    <fieldset>
-        <legend>
-            Your Item:
-        </legend>
-        <p>
-            <label for = "selection">
-                Please select an item:
-            </label>
-            <select name="referrer" id="selection">
+        <fieldset>
+            <legend>
+                Your Item:
+            </legend>
+             <p>
+                <label for = "selection">
+                    Please select an item:
+                </label>
+                    <select name="referrer" id="selection">
 
-                <option value ="banana.jpg">Banana</option>
-                <option value ="boots.jpg">Boots</option>
-                <option value ="breakfast.jpg">Breakfast</option>
-                <option value ="chair.jpg">Chair</option>
-                <option value ="dog-duck.jpg">Dog-duck</option>
-                <option value ="dragon.jpg">Dragon</option>
-                <option value ="goblin.jpg">Goblin</option>
-                <option value ="iPadStand.jpg">iPad Stand</option>
-                <option value ="meatballs.jpg">Meatballs</option>
-                <option value ="pen.jpg">Pen</option>
-                <option value ="pet-sweep.jpg">Pet-sweeper</option>
-                <option value ="r2d2.jpg">R2D2 backpack</option>
-                <option value ="sleep.jpg">Sleep</option>
-                <option value ="unicorn.jpg">Unicorn</option>
-                <option value ="usb.jpg">USB</option>
-                <option value ="water-can.jpg">Watering can</option>
-                <option value ="wine-glass.jpg">Wine glass</option>
-            </select>
-        </p>
-        <p>
-            <form action="file:///Users/confalones/codefellows/201/order-form/cart.html">
-            <p>How many would you like?</p>
-            <input type: "text" name="Qty:"/>
-            </form>
-
-        </p>
-    </fieldset>
-
+                        <option value ="banana.jpg">Banana</option>
+                        <option value ="boots.jpg">Boots</option>
+                        <option value ="breakfast.jpg">Breakfast</option>
+                        <option value ="chair.jpg">Chair</option>
+                        <option value ="dog-duck.jpg">Dog-duck</option>
+                        <option value ="dragon.jpg">Dragon</option>
+                        <option value ="goblin.jpg">Goblin</option>
+                        <option value ="iPadStand.jpg">iPad Stand</option>
+                        <option value ="meatballs.jpg">Meatballs</option>
+                        <option value ="pen.jpg">Pen</option>
+                        <option value ="pet-sweep.jpg">Pet-sweeper</option>
+                        <option value ="r2d2.jpg">R2D2 backpack</option>
+                        <option value ="sleep.jpg">Sleep</option>
+                        <option value ="unicorn.jpg">Unicorn</option>
+                        <option value ="usb.jpg">USB</option>
+                        <option value ="water-can.jpg">Watering can</option>
+                        <option value ="wine-glass.jpg">Wine glass</option>
+                    </select>
+            </p>
+            <p>
+                <form action="file:///Users/confalones/codefellows/201/order-form/cart.html">
+                <p>How many would you like?</p>
+                <input type: "text" name="Qty:"/>
+                </form>
+                <button id ="addCart"> Add to Cart </button>
+            </p>
+        </fieldset>
+<!-- 
         <form addCart="">
             <select name = "Product">
                 <option value="bag">bag</option>
                 <option value="chair">chair</option>
             </select>
             <input type="text" id="qty" placeholder="qty">
-            <button id ="addCart"> Add to Cart </button>
-        </form>
+        </form> -->
         </section>   
         <div>
             <h1>Items in Cart</h1>
-            <ul id = "items"></ul>
+            <ul id = "items">
+                <li>Test 1: 3 total</li>
+                <li>Test 2: 4 total</li>
+                <li>Test 3: 100 total</li>
+            </ul>
         </div>
+        <a href="cart.html">Go to Cart</a>
         <script type="text/javascript" src="apps.js"></script>
+        <footer>
+            <p>&copy Bus Mall Corporation, 2018.</p>
+        </footer>
     </body>
 </html>

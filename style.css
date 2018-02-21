@@ -1,0 +1,83 @@
+/* Everything */
+body {
+    width: 100%;
+    margin: auto;
+}
+
+h1 {
+    font-size: 36px;
+    float: left;
+    width: 100%;
+    color: white;
+    background-color: rgb(27, 28, 49);
+    text-indent: 50px;
+}
+
+button {
+    float: right;
+    margin-right: 50px;
+    text-align: center;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    font-size: 12px;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* index.html */
+fieldset {
+    width: 90%;
+    height: 150px;
+    margin: auto;
+}
+
+#addCart {
+    color: white;
+    background-color: rgb(226, 82, 14);
+    width: 100px;
+    height: 30px;
+}
+
+#items {
+    width: 80%;
+    margin: auto;
+}
+
+#items li {
+    list-style-type: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Cart.html */
+#order {
+    color: white;
+    background-color: rgb(226, 82, 14);
+    width: 120px;
+    height: 30px;
+}
+
+#cart {
+    width: 100%;
+    margin: auto;
+    text-align: left;
+}
+
+#itemDel {
+    list-style-type: none;
+}
+
+.delete {
+    float: right;
+    width: 75px;
+    height: 20px;
+}
+
+#shipping {
+    width: 100%;
+    margin: auto;
+}
